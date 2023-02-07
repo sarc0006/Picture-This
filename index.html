@@ -15,8 +15,15 @@
       <h1>Picture This!</h1>
       <h4>My Really Cool Blog Post</h4>
     </div>
-    <img src="images/museum.jpg" alt="placeholder">
-
+     <!-- <img src="images/museum.jpg" alt="placeholder"> -->
+     <img 
+     srcset="images/museum.jpg 960w,
+             images/museum.jpg 1280w,
+             images/museum.jpg 1600w"
+     sizes="(max-width: 1440px) 480px,
+           (max-width: 1920px) 640px,
+           (max-width: 2400px) 800px"
+     src="images/museum.jpg">
   </header>
 </body>
 
